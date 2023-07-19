@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
 * {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -22,11 +24,22 @@ main{
     
 }
 
-h1, h2, h3{
+h1, h2{
+    font-size: 3em;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3{
     text-align: center;
 }
 
-p{text-align: justify;}
+p{
+    text-align: justify;
+    text-align: center;
+    
+}
 
 div{
     text-align: center;

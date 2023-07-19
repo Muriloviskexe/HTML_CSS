@@ -1,14 +1,37 @@
 @charset "UTF-8";
 
-*{
-    /* height: 100%; */
-
-}
 
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'work Sans' sans-serif;
+
+
+/* 
+Shorthand font:
+-font style -> font-weight -> font-size -> font-family 
+*/
+
+
+/* 
+    Medidas Absolutas
+    cm, mm, in, px [INDICADO], pt, pc
+    
+    Medidas Relativas
+    em [INDICADO] (Relativa ao tamanho do M da fonte)
+    ex (Relativo a altura x)
+    rem (Relativo a fonte do body)
+    vw (Relativo ao temanho da tela)
+    vh (Relativo ao tamanho de altura)
+    % (Porcentagem da tela)
+
+    16px geralmente igual a 1em
+    */
+
+    font-size: 1em;
+
     background-image: linear-gradient(to right, rgb(216, 216, 247), rgb(171, 171, 235));
 }
+
+
 main{
     background-color: rgb(255, 255, 255);
     
@@ -21,6 +44,8 @@ main{
 }
 
 h1, h2{
+
+    
     text-align: center;
     color: rgb(44, 20, 71);
 
@@ -30,3 +55,4 @@ h1, h2{
 p{
     text-align: justify;
 }
+
