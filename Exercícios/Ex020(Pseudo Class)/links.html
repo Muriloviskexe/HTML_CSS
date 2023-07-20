@@ -1,2 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
 
+    <!--
+        # = ID
+        . = Class
+        : = Pseudo-class
+        :: = Pseudo-element
+        > = Children
+
+
+     -->
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a{
+        color: #fc4949;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:visited{
+        color: #961414;
+    }
+
+    a:hover{
+        color:blueviolet;
+        text-decoration: underline;
+    }
+
+    /* :active muda o estado quando está clicado */
+
+    a::after{
+        content:' [Link]';
+        text-decoration: none;
+        font-weight: normal;
+        color: gray;
+    }
+
+</style>
+
+</head>
+<body>
+    <h1>Pesonalizando Links</h1>
+        <ul>
+            <li><a href="https://github.com/Muriloviskexe" rel="next" target="_blank" >Repositório Github</a></li>
+            <li><a href="https://www.linkedin.com/in/murilo-garcia-da-costa-046320234/" target="_blank" rel="next">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/murilovisk.exe/" target="_blank" rel="next">Instagram</a></li>
+        </ul>
+
+</body>
+</html>
 
