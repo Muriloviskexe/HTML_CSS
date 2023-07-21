@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
 body{
     font-family: 'Times New Roman', Times, serif;
     
@@ -13,6 +15,7 @@ body{
 }
 
 header {
+
     box-shadow: 1px 1px 10px black;
     background-color: aliceblue;
 
@@ -23,6 +26,14 @@ header {
     border-radius: 10px;
 
 
+}
+
+header > h1{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3em;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 nav{
