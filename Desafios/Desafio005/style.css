@@ -13,6 +13,8 @@ body{
 }
 
 main{
+    margin: auto;
+
     background-color: white;
 
     padding: 2em;
@@ -27,8 +29,9 @@ main{
 h1, h2{
     font-size: 3em;
     font-family: 'Amatic SC', cursive;
-    text-align: center;
     font-weight: bold;
+
+    text-align: center;
 }
 
 h3{
@@ -37,10 +40,18 @@ h3{
 
 p{
     text-align: justify;
-    text-align: center;
+    
     
 }
 
 div{
     text-align: center;
+}
+
+p#unico{
+    text-align: center;
+}
+
+#descricao{
+    text-indent: 20px;
 }
