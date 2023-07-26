@@ -4,14 +4,11 @@
     em HTML é id = em CSS é # (Só um elemento por pag)
     em HTML é class = em CSS é . (Mais de um elemento)
 */
+ *{
+    
+ }
 
-/* main{
-    background-color: #fff;
-    border-radius: 15px;
-    padding: 2em;
-    width: fit-content;
-    width: 600px;
-} */
+ 
 
 body{
     background-color: #0F4C5C;
