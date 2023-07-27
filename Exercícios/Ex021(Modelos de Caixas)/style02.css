@@ -37,8 +37,13 @@ header > h1{
 }
 
 nav{
-    background-color: aliceblue;
+    background-color: rgb(152, 182, 207);
+    
     padding: 5px;
+
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.384);
+
+
 }
 
 nav > a{
@@ -52,7 +57,10 @@ nav > a{
 
 nav > a:hover{
     color: blueviolet;
+    
     text-decoration: underline;
+
+    
 
 }
 
@@ -100,11 +108,15 @@ aside {
 footer{
     
     background-color: black;
-    padding: 20px;
+    padding: 15px;
 
     color: white;
     text-align: center;
     height: auto;
     margin: auto;
 
+}
+
+footer > p{
+    margin: 0;
 }
