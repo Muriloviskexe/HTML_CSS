@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Tektur:wght@400;500&display=swap');
+
+body{
+    background-color: #1FAB69;
+    border: 0px;
+    margin: 0px;
+    text-indent: 20px;
+}
+
+header{
+    font-family:'Oswald', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom,#22D74A, #155012);
+    padding: 10px;
+    margin: 0px;
+    border: 0px;
+
+    color: white;
+
+}
+
+header > h1{
+    font-size: 3em;
+    font-weight: bolder;
+
+}
+
+header > h2{
+    margin:auto;
+    font-weight: 300;
+    font-size: 1em;
+    width: 300px;
+}
+
+nav{
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+    text-align: left;
+
+    
+    
+}
+
+nav > a{
+    margin: auto;
+    padding: 10px;
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+
+}
+
+nav > a:hover{
+    background-color:#0d310b94 ;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.37);
+
+
+}
+main{
+    background-color: white;
+
+    padding: 10px;
+    margin: auto;
+    
+    width: 800px;
+
+    border-radius: 0px 0px 10px 10px ;
+    
+
+}
+
+main > h1{
+    padding: 10px;
+    font-size: 3em;
+    font-family:'Tektur', "cursive";
+    color: #124610;
+}
+
+main >h2{
+
+    font-family: 'Tektur', 'cursive';
+    padding: 15px;
+    color: #124610;
+    background-image: linear-gradient(to right,#22d74973, white 90%);
+}
+
+main > p{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+#extra{
+    
+    border-radius: 10px;
+    background-color: #1fab6a75;
+}
+
+#extra >h1{
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    
+    background-color: #38c456c2;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.589);
+}
+
+#extra > p{
+    margin:20px ;
+    padding: 10px 10px 20px 10px;
+    font-size: 1.2em;
+    
+}
+
+#extra > #esquerda{
+    font-size: 1.2em;
+}
+
+
+
+.verde{
+    font-weight: bold;
+    color:#124610 ;
+}
+
+
+footer{
+    background-color: #124610;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#boxVideo{
+    
+    margin: auto;
+    padding: 10px;
+    border: 10px;
+    background-color: #124610;
+}
+
+#boxVideo>iframe{
+
+    margin: auto;
+    padding: 20px;
+}
