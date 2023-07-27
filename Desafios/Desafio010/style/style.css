@@ -2,10 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Tektur:wght@400;500&display=swap');
 
+
+
 body{
     background-color: #1FAB69;
     border: 0px;
-    margin: 0px;
+    margin: 0px; 
     text-indent: 20px;
 }
 
@@ -50,6 +52,7 @@ nav > a{
     padding-right: 15px;
     color: white;
     text-decoration: none;
+    transition: 0.5s;
 
 }
 
@@ -59,13 +62,13 @@ nav > a:hover{
 
 
 }
-main{
+main {
     background-color: white;
-
-    padding: 10px;
+    padding: 20px;
     margin: auto;
     
-    width: 800px;
+    min-width: 300px;
+    max-width: 1000px;
 
     border-radius: 0px 0px 10px 10px ;
     
@@ -84,7 +87,7 @@ main >h2{
     font-family: 'Tektur', 'cursive';
     padding: 15px;
     color: #124610;
-    background-image: linear-gradient(to right,#22d74973, white 90%);
+    background-image: linear-gradient(to right,#22d74973, rgba(255, 255, 255, 0) 90%);
 }
 
 main > p{
@@ -93,6 +96,29 @@ main > p{
     padding-bottom: 20px;
     text-align: justify;
     font-size: 1.2em;
+}
+
+.boxVideo{
+    background-color: #124610;
+    margin-bottom: 30px;
+    margin: 0px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+
+}
+
+.boxVideo > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+img{
+    display: block;
+    margin: auto;
 }
 
 #extra{
@@ -117,7 +143,10 @@ main > p{
     
 }
 
-#extra > #esquerda{
+#extra > ul{
+    list-style-type:disc;
+    list-style-position: inside;
+    columns: 2;
     font-size: 1.2em;
 }
 
@@ -141,16 +170,3 @@ a{
     text-decoration: none;
 }
 
-#boxVideo{
-    
-    margin: auto;
-    padding: 10px;
-    border: 10px;
-    background-color: #124610;
-}
-
-#boxVideo>iframe{
-
-    margin: auto;
-    padding: 20px;
-}
