@@ -10,26 +10,44 @@
         body{
             background-image: linear-gradient(to right, rgb(75, 11, 75),rgb(5, 5, 66));
         }
+
+
         main{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+
+        .fundo{
             
             background-color: rgba(0, 0, 0, 0.342);
             color: white;
             font-family: 'Roboto Mono', monospace;
-            text-align: center;
+            border-radius: 50px;
+
             height: 200px;
             width: 400px;
-            border-radius: 50px;
-            margin: auto;
-            margin-top: 100px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            
             
         }
 
         main > h1{
+            display: block;
             margin: auto;
             padding-top: 13%;
         }
 
         main > h2{
+            display: block;
             font-family: 'Roboto Mono', monospace;
             font-size: 1.2em;
         }
@@ -37,11 +55,11 @@
     </style>
 </head>
 <body>
-
-    <i class="fa-light fa-code fa-2xs"></i>
     <main>
-    <h1>&lt;Murilo Costa/&gt;</h1>
-    <h2>Desenvolvedor WEB</h2>
+        <div class="fundo">
+            <h1>&lt;Murilo Costa/&gt;</h1>
+            <h2>Desenvolvedor WEB</h2>
+        </div>
     </main>
 </body>
 </html>
