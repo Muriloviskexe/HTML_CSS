@@ -2,34 +2,40 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
-body{
-    
-    border: 0;
-    margin: 0;
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color: white;
+    min-height: 100vh;
 }
 
 header{
     background-color: black;
-    height: 250px;
     color: white;
     text-align: center;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
-h1{
+header h1{
+    padding-top: 50px;
     font-family: 'Passion One', 'cursive';
     font-size: 5em;
+    font-variant: small-caps;
 }
 
-h2{
+header p{
+    padding-bottom: 50px;
     font-size: 1.3em;
 }
 
+
+
 p{  
+    padding: 10px;
     font-family: 'Sriracha';
     font-size: 2.5em;
 }
@@ -39,53 +45,58 @@ a{
     color: white;
 }
 
-.fundo-branco{
-    padding: 20px;
-    height: fit-content;
-    
-    background-color: white;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 4em;
+    padding-left: 30px;
 }
 
-.img1{
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.img{
+    background-color: rgb(54, 54, 54);
+    color: white;
     display: flex;
     align-items: center;
-    height:700px;
-    background: white url(image/background001.jpg) center center no-repeat fixed;
+    
+}
+
+.img p{
+    border-radius: 10px;
+    background-color: rgba(94, 94, 94, 0.493);
+    width: 600px;
+    padding: 10px;
+
+}
+
+#img1{
+    background: rgb(78, 78, 78) url(../image/background001.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
-.img2{
-    display: flex;
-    align-items: center;
-    height:700px;
-    background: white url(image/background002.jpg) center center no-repeat fixed;
-    background-size: 100% 100%;
+#img2{
+    background: white url(../image/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+
 }
 
-.p-img{
-    font-family: 'Sriracha', 'cursive';
-    padding: 30px;
-    border-radius: 5px;
-    background-color: rgba(43, 43, 43, 0.603);
-    color: white;
-    margin: 0;
-    font-size: 2.5em;
-}
-
-#pe{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-align: center;
-    margin: 0;
-    color: white;
-}
 
 footer{
+    color: white;
     margin-top: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: black;
     height: 100px;
+    font-size: 8px;
     
+}
+
+footer p{
+    font-family: 'Times New Roman', Times, serif;
 }
